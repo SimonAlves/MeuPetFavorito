@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imagemPet"
+        android:layout_width="302dp"
+        android:layout_height="139dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/shitsu" />
+
+    <TextView
+        android:id="@+id/tituloHistoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conheça a Raça Shitsu"
+        android:textColor="@color/green2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textoHistoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_personalizado"
+        android:padding="16dp"
+        android:textColor="@color/blue2"
+        android:text="Uma lenda diz que os lamas do Tibete criaram os shihtzus como um presente aos imperadores chineses. Outra: eles seriam a reencarnação de deuses arteiros. Isso talvez explique a fama de raça desobediente. Mas os shihtzus sempre foram bons cães de companhia. Os nobres chineses os usavam para esquentar os pés, por exemplo. O nome deles significa “pequeno leão” em chinês."
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+

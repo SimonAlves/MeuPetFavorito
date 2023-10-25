@@ -1,0 +1,13 @@
+<resources>
+    <!-- Se houver outros estilos, mantenha-os aqui -->
+
+    <!-- Estilo para o botão -->
+    <style name="BotaoProfissional" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/botao_profissional_background</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

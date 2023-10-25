@@ -12,11 +12,17 @@
     <color name="yellow2">#f4c44c</color>
     <color name="green">#04AC6F</color>
     <color name="green2">#04ac6c</color>
+    <color name="green4">#059c41</color>
     <color name="blue2">#148599</color>
     <color name="bege2">#edecdf</color>
+    <color name="bege3">#F8F8F3</color>
     <color name="red2">#e64840</color>
     <color name="verde2">#8fc5c0</color>
     <color name="marrom2">#847464</color>
+    <color name="marrom3">#A29588</color>
+    <color name="green3">#51A27B</color>
+    <color name="blue3">#8fc5c0</color>
+
 
 
 </resources>

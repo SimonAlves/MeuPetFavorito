@@ -12,6 +12,12 @@
         android:theme="@style/Theme.MeuPetFavorito"
         tools:targetApi="31">
         <activity
+            android:name=".MelhoresVermifugos"
+            android:exported="false" />
+        <activity
+            android:name=".Vermifugos"
+            android:exported="false" />
+        <activity
             android:name=".Curiosidades"
             android:exported="false" />
         <activity

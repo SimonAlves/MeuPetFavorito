@@ -3,6 +3,7 @@ package com.example.meupetfavorito
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -77,7 +78,15 @@ class MainActivity : AppCompatActivity() {
                     R.drawable.curiosidades,
                     Curiosidades::class.java
                 )
+
             )
+        childItems1.add(
+            ChildItem(
+                "Vermifugos",
+                R.drawable.vermifugo,
+                Vermifugos::class.java
+            )
+        )
 
             parentList.add(
                 ParentItem(
@@ -230,4 +239,5 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
 

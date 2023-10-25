@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bege3"
     tools:context=".MainActivity">
 
     <!-- RecyclerView para exibir a lista -->
@@ -28,8 +29,9 @@
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/baseline_menu_24"
         android:layout_margin="18dp"
+        android:background="@color/red2"
+        android:src="@drawable/baseline_menu_24"
         app:layout_anchor="@+id/bottom_app_bar"
         app:layout_anchorGravity="top|center"
         app:layout_dodgeInsetEdges="bottom" />

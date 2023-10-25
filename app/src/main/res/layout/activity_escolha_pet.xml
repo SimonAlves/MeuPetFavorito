@@ -1,59 +1,157 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bege3"
+    android:columnCount="2"
+    android:orientation="horizontal"
+    android:padding="16dp"
     tools:context=".EscolhaPetActivity">
 
-    <ImageView
-        android:id="@+id/imageViewCao"
-        android:layout_width="179dp"
-        android:layout_height="154dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="16dp"
-        android:src="@drawable/caoescolha"
-        app:layout_constraintBottom_toTopOf="@id/botaoCao"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.884" />
-
-    <Button
-        android:id="@+id/botaoCao"
+    <!-- Título -->
+    <TextView
+        android:id="@+id/textViewTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="312dp"
-        android:text="Selecionar Cão"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageViewCao"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imageViewCao" />
+        android:text="Conheça em Detalhes o Seu Pet"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        android:layout_columnSpan="2"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
 
-    <ImageView
-        android:id="@+id/imageViewGato"
-        android:layout_width="172dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="40dp"
-        android:src="@drawable/gatoescolha"
-        app:layout_constraintBottom_toTopOf="@id/botaoGato"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.01"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.868" />
-
-    <Button
-        android:id="@+id/botaoGato"
+    <!-- Primeiro Par: Cão -->
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="312dp"
-        android:text="Selecionar Gato"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageViewGato"
-        app:layout_constraintHorizontal_bias="0.672"
-        app:layout_constraintStart_toStartOf="@+id/imageViewGato" />
+        android:orientation="vertical"
+        android:layout_gravity="center">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:id="@+id/imageViewCao"
+            android:layout_width="179dp"
+            android:layout_height="154dp"
+            android:src="@drawable/cao5" />
+
+        <Button
+            android:id="@+id/botaoCao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cães"
+            android:textSize="12sp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <!-- Segundo Par: Gato -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageViewGato"
+            android:layout_width="172dp"
+            android:layout_height="150dp"
+            android:src="@drawable/gato" />
+
+        <Button
+            android:id="@+id/botaoGato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gatos"
+            android:textSize="12sp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <!-- Terceiro Par: Peixe -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageViewPeixe"
+            android:layout_width="172dp"
+            android:layout_height="150dp"
+            android:src="@drawable/peixes" />
+
+        <Button
+            android:id="@+id/botaoPeixe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Peixes"
+            android:textSize="12sp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <!-- Quarto Par: Roedor -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageViewRoedor"
+            android:layout_width="172dp"
+            android:layout_height="150dp"
+            android:src="@drawable/roedores" />
+
+        <Button
+            android:id="@+id/botaoRoedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Roedores"
+            android:textSize="12sp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <!-- Quinto Par: Ave -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageViewAve"
+            android:layout_width="172dp"
+            android:layout_height="150dp"
+            android:src="@drawable/aves" />
+
+        <Button
+            android:id="@+id/botaoAve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aves"
+            android:textSize="12sp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <!-- Sexto Par: Garden -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imageViewGarden"
+            android:layout_width="172dp"
+            android:layout_height="150dp"
+            android:src="@drawable/garden" />
+
+        <Button
+            android:id="@+id/botaoGarden"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Garden"
+            android:textSize="12sp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+</GridLayout>

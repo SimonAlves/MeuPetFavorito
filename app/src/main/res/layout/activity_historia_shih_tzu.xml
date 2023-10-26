@@ -1,58 +1,23 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
-    android:background="@color/white">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center">
+    android:background="@android:color/black">
 
     <ImageView
-        android:id="@+id/imagemPet"
-        android:layout_width="302dp"
-        android:layout_height="139dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="16dp"
-        android:src="@drawable/shitsu" />
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/historiashihtzu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
-        android:id="@+id/tituloHistoria"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Conheça a Raça Shitsu"
-        android:textColor="@color/green2"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp" />
-
-    <TextView
-        android:id="@+id/textoHistoria"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:padding="16dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginEnd="25dp"
-        android:text="- Origem\n\n  O Shih Tzu é uma raça de cachorro originária do Tibet.\n\n\- História da raça\n\nA raça Shih Tzu é considerada uma das raças mais antigas do mundo. Essa raça originou-se do cruzamento do Lhasa Apso (Tibet) com o Pequinês (China) há muitos séculos. O Shih Tzu era um cão de companhia, nas caravanas que iam para a China. Da mesma forma, era encontrado nos monastérios, pois muitos acreditavam que o Shih Tzu dava sorte, sendo considerado um amuleto. Os povos antigos o ofereciam como presente ao visitante mais importante. O Shih Tzu pertence ao Grupo 9, designado aos cães de companhia.\n\n- Características comportamentais\n\nO Shih Tzu é um cachorro que adora a companhia das pessoas, assim como carinho. Mas também é um cachorro bastante independente. Além disso, o Shih Tzu possui um temperamento dócil, afetuoso e alegre. Além de ser extremamente inteligente, ativo e alerta. Ao contrário das demais raças caninas, o Shih Tzu pode permanecer sozinho por um tempo, sem problema, pois não destrói a casa nem late em demasia. Essa raça se adapta bem a pequenos ambientes, como apartamentos. É um cão bastante educado, que gosta de ambientes limpos. Jamais dorme no local onde faz suas necessidades fisiológicas.\n\n- Características físicas\n\nQuanto ao tamanho, o Shih Tzu pode alcançar até 26,7 cm. O peso dessa raça pode variar dos 4,5 aos 8,1 kg. Em relação à pelagem, esta deve ser lisa, longa e farta. É uma raça que pode apresentar uma grande variedade de cores, podendo ser bicolores ou tricolores. Geralmente, apresenta uma mácula branca na testa e na ponta da cauda. Os seus olhos geralmente são pretos e grandes, sem que apareça a parte branca. Para mais detalhes, vejamos o infográfico abaixo."
-        android:textAlignment="center"
-        android:textColor="@color/blue2"
-        android:textSize="16dp"
-        android:lineSpacingExtra="4dp"
-        android:lineSpacingMultiplier="1.2"/>
-        <ImageView
-            android:id="@+id/suaImagem"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/sobreshihtzu"/>
-
-</LinearLayout>
-
-    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

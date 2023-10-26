@@ -5,9 +5,10 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.meupetfavorito.Quadruple
 import com.example.meupetfavorito.R
 
-class RacaoAdapter(private val racoes: List<Triple<String, String, String>>, private val listener: (String) -> Unit) :
+class RacaoAdapter(private val racoes: List<Quadruple<String, String, String, Int>>, private val listener: (String) -> Unit) :
     RecyclerView.Adapter<RacaoAdapter.ViewHolder>() {
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -17,10 +18,10 @@ class RacaoAdapter(private val racoes: List<Triple<String, String, String>>, pri
         private val buttonVerProduto: Button = itemView.findViewById(R.id.verProdutoBtn)
 
         fun bind(position: Int) {
-            val (nome, descricao, _) = racoes[position]
+            val (nome, descricao, _, imagem) = racoes[position]
             textViewNome.text = nome
             textViewDescricao.text = descricao
-            imageView.setImageResource(R.drawable.racaoicon) // Substitua ic_racao pelo seu recurso de imagem
+            imageView.setImageResource(imagem)
 
             buttonVerProduto.setOnClickListener {
                 listener(racoes[position].third)

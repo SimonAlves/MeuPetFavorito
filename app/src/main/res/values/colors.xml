@@ -22,6 +22,10 @@
     <color name="marrom3">#A29588</color>
     <color name="green3">#51A27B</color>
     <color name="blue3">#8fc5c0</color>
+    <color name="custom_button_pressed_color">#4CAF50</color>
+    <color name="custom_button_default_color">#FF9800</color>
+    <color name="custom_button_text_color">#FFFFFF</color>
+
 
 
 

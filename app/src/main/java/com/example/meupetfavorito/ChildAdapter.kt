@@ -1,3 +1,5 @@
+package com.example.meupetfavorito
+
 import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
@@ -7,7 +9,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
-import com.example.meupetfavorito.*
 
 class ChildAdapter(private val childList: List<ChildItem>, private val context: Context) :
     RecyclerView.Adapter<ChildAdapter.ChildViewHolder>() {

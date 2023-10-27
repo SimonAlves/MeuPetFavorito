@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,29 +7,20 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:background="#FFFFFF">
-
     <TextView
         android:id="@+id/titulo_curiosidades"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Curiosidades sobre Shih Tzu"
+        android:text="Curiosidades Pets"
         android:textSize="24sp"
-        android:textColor="#0DA847"
+        android:textColor="@color/green4"
         android:textStyle="bold"
         android:layout_gravity="center"/>
 
-    <ScrollView
+    <ListView
+        android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp">
+        android:layout_marginTop="16dp" />
 
-        <TextView
-            android:id="@+id/texto_curiosidades"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:textColor="#333333"
-            android:text="Aqui vão algumas curiosidades sobre a raça Shih Tzu:\n\n- Expressões Faciais: Os Shih Tzus são conhecidos por suas expressões faciais únicas e expressivas, o que os torna muito encantadores e cativantes.\n- Raça Real: Eles eram os favoritos da realeza chinesa, especialmente durante a dinastia Ming e Qing, sendo criados exclusivamente para a nobreza.\n- Nível de Energia: Apesar de pequenos, Shih Tzus têm um nível moderado de energia e adoram brincar e explorar.\n- Companheiros Incríveis: São cães muito leais e adoram estar perto de seus donos, sendo excelentes companheiros.\n- Longa Expectativa de Vida: Com os devidos cuidados, Shih Tzus podem viver de 10 a 16 anos ou mais." /> android:text="Aqui vão algumas curiosidades sobre a raça Shih Tzu:\n\n- Origem: Os Shih Tzus têm uma longa história, sendo uma raça de cães de companhia originária do Tibet.\n- Personalidade: São conhecidos por serem afetuosos, dóceis e extremamente leais aos seus donos.\n- Pelagem: Possuem uma pelagem exuberante que demanda cuidados regulares para manter-se saudável e bonita.\n- Tamanho: São cães de porte pequeno, ideais para viver em espaços menores.\n- Inteligência: São inteligentes e podem ser treinados com paciência e reforço positivo." />
-
-    </ScrollView>
 </LinearLayout>

@@ -1,10 +1,9 @@
 package com.example.meupetfavorito
 
+
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import android.widget.ImageView
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView

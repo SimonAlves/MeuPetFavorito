@@ -16,7 +16,8 @@ class Curiosidades : AppCompatActivity() {
             "Veja 10 alimentos que o cachorro não pode comer!",
             "Cachorro Dormir na Cama?Entenda!",
             "O que o porquinho-da-índia pode comer? Veja aqui!",
-            "Como cuidar dos peixes do aquário no inverno?Veja aqui!"
+            "Como cuidar dos peixes do aquário no inverno?Veja aqui!",
+            "Por que o cachorro come chinelo? Entenda aqui!"
         )
 
         val links = listOf(
@@ -25,7 +26,8 @@ class Curiosidades : AppCompatActivity() {
             "https://blog.polipet.com.br/o-que-o-cachorro-nao-pode-comer/",
             "https://blog.polipet.com.br/cachorro-dormir-na-cama/",
             "https://blog.polipet.com.br/o-que-o-porquinho-da-india-pode-comer-veja-aqui/",
-            "https://blog.polipet.com.br/como-cuidar-dos-peixes-do-aquario-no-inverno-veja-aqui/"
+            "https://blog.polipet.com.br/como-cuidar-dos-peixes-do-aquario-no-inverno-veja-aqui/",
+            "https://blog.polipet.com.br/por-que-o-cachorro-come-chinelo-entenda-aqui/"
         )
 
         val adapter = CustomListAdapter(this,titulos, links)

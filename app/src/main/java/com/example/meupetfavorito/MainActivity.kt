@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
             childItems1.add(
                 ChildItem(
                     "História do shih tzu",
-                    R.drawable.historia,
+                    R.drawable.historybook,
                     HistoriaShihTzuActivity::class.java
                 )
             )
@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
             childItem2.add(
                 ChildItem(
                     "História do shih tzu",
-                    R.drawable.historia,
+                    R.drawable.historybook,
                     HistoriaShihTzuActivity::class.java
                 )
             )
@@ -129,7 +129,7 @@ class MainActivity : AppCompatActivity() {
             childItem3.add(
                 ChildItem(
                     "História do shih tzu",
-                    R.drawable.historia,
+                    R.drawable.historybook,
                     HistoriaShihTzuActivity::class.java
                 )
             )
@@ -161,7 +161,7 @@ class MainActivity : AppCompatActivity() {
             childItem4.add(
                 ChildItem(
                     "História do shih tzu",
-                    R.drawable.historia,
+                    R.drawable.historybook,
                     HistoriaShihTzuActivity::class.java
                 )
             )
@@ -192,7 +192,7 @@ class MainActivity : AppCompatActivity() {
             childItem5.add(
                 ChildItem(
                     "História do shih tzu",
-                    R.drawable.historia,
+                    R.drawable.historybook,
                     HistoriaShihTzuActivity::class.java
                 )
             )

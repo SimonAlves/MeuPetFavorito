@@ -3,25 +3,91 @@
     <string name="descricao_obesidade_animais">E você tem notado que seu cachorro ou seu gato anda meio “cheinho” ultimamente, cuidado! A obesidade em animais pode ser mais perigosa do que você imagina. Além de comprometer a qualidade de vida do bichinho, ela também traz inúmeras doenças e ainda diminui a expectativa de vida deles. Mas como saber se seu pet está acima do peso? Dando uma bela observada na estrutura corporal do animal. Geralmente, quando o bicho está gordinho, ele apresenta uma camada adiposa excessiva. Ao tocá-lo, você não conseguirá sentir suas as costelas e ainda terá dificuldade em sentir sua musculatura. Outra forma de identificar que seu gatinho ou cãozinho está obeso é a “falta de cintura” do pet. Alguns animais também apresentam dificuldade para andar quando estão mais gorduchos.</string>
     <string name="descricao_royal_canin">Royal Canin Shih Tzu: Oferece uma variedade de produtos de ração que atendem às necessidades nutricionais específicas dos Shih Tzus, com antioxidantes, vitaminas e minerais que suportam uma pele e pelagem saudáveis.</string>
     <string name="seu_texto_formatado_html">
-    <![CDATA[
-    - <b>Origem</b>
-    <br/>
-    O Shih Tzu é uma raça de cachorro originária do Tibet.
-    <br/>
-    - <b>História da raça</b>
-    <br/>
-    A raça Shih Tzu é considerada uma das raças mais antigas do mundo. ...
-    <br/>
-    - <b>Características comportamentais</b>
-    <br/>
-    O Shih Tzu é um cachorro que adora a companhia das pessoas, ...
-    <br/>
-    - <b>Características físicas</b>
-    <br/>
-    Quanto ao tamanho, o Shih Tzu pode alcançar até 26,7 cm. ...
-    <br/>
-    Para mais detalhes, vejamos o infográfico abaixo.
-    ]]>
+        <![CDATA[
+        - <b>Origem</b>
+        <br/>
+        O Shih Tzu é uma raça de cachorro originária do Tibet.
+        <br/>
+        - <b>História da raça</b>
+        <br/>
+        A raça Shih Tzu é considerada uma das raças mais antigas do mundo. ...
+        <br/>
+        - <b>Características comportamentais</b>
+        <br/>
+        O Shih Tzu é um cachorro que adora a companhia das pessoas, ...
+        <br/>
+        - <b>Características físicas</b>
+        <br/>
+        Quanto ao tamanho, o Shih Tzu pode alcançar até 26,7 cm. ...
+        <br/>
+        Para mais detalhes, vejamos o infográfico abaixo.
+        ]]></string>
+    <!-- Fase de Filhote do Shih Tzu -->
+    <string name="filhote_title">Fase de Filhote do Shih Tzu</string>
+    <string name="filhote_description">-<b>Fase de Filhote do Shih Tzu:</b>\n
+        Durante a fase de filhote, seu Shih Tzu está em seu estágio inicial de desenvolvimento. Esta fase é crucial para o crescimento físico e cognitivo do seu cãozinho. Durante este período, é importante fornecer uma dieta rica em nutrientes e oferecer estímulos adequados para promover um desenvolvimento saudável.\n
+
+        - <b>Alimentação:</b>\n
+        Ofereça uma dieta balanceada e adequada para filhotes, rica em nutrientes essenciais para o crescimento saudável.\n
+
+        - <b>Exercícios:</b>\n
+        Proporcione atividades físicas adequadas à idade, como brincadeiras leves e curtos passeios.\n
+
+        - <b>Ensino de Comandos Básicos:</b>\n
+        Comece a ensinar comandos simples como "senta", "fica" e "venha" de forma positiva e recompensadora.\n
+    </string>
+
+    <!-- Fase Adulta do Shih Tzu -->
+    <string name="adulta_title">Fase Adulta do Shih Tzu</string>
+    <string name="adulta_description">- <b>Fase Adulta do Shih Tzu:</b>\n
+        A fase adulta marca a maturidade física e comportamental do seu Shih Tzu. É fundamental continuar fornecendo uma alimentação equilibrada e adequada para manter a saúde do seu cão nesta etapa.
+
+        - <b>Alimentação e Nutrição:</b>\n
+        Mantenha uma dieta balanceada, considerando as necessidades específicas de um adulto, e evite excessos que possam levar ao ganho de peso.\n
+
+        - <b>Exercícios e Atividades:</b>\n
+        Continue proporcionando exercícios diários, como caminhadas e brincadeiras, para manter a saúde física e mental.
+
+        - <b>Manutenção da Pelagem:</b>\n
+        Escove regularmente o pelo do seu Shih Tzu para evitar nós e emaranhados, além de manter a pelagem saudável e bonita.
+    </string>
+
+    <!-- Fase Sênior do Shih Tzu -->
+    <string name="senior_title">Fase Sênior do Shih Tzu</string>
+    <string name="senior_description">-<b>Fase Sênior do Shih Tzu:</b>\n
+        Na fase sênior, que geralmente começa aos 10 anos de idade, seu Shih Tzu entra na terceira idade. Neste estágio, pode haver algumas mudanças físicas e de energia. É importante ajustar a dieta e os níveis de atividade para atender às necessidades do seu cão idoso. Exames regulares e cuidados veterinários são essenciais para garantir uma vida saudável e confortável.</string>
+    <string name="titulo_historia">Conheça a História do Shih Tzu</string>
+    <string name="historia_descricao">
+     - <b>Origens Antigas:</b>\n
+    A raça Shih Tzu tem origens antigas, remontando aos tempos imperiais da China. Eles eram considerados sagrados e eram criados exclusivamente pela realeza chinesa.\n
+
+    <b>Introdução na China:</b>\n
+    Os primeiros registros históricos da raça datam do século VII. Durante a Dinastia Tang, a imperatriz Wu Zetian era uma grande entusiasta dos Shih Tzus e contribuiu para sua popularidade.\n
+
+    <b>Presente na Dinastia Ming:</b>\n
+    Durante a Dinastia Ming, os Shih Tzus eram altamente valorizados e criados com grande cuidado. Eles eram frequentemente presenteados como símbolos de amizade e boa sorte.\n
+
+     <b>Viagem para o Tibete:</b>\n
+    Por volta do século XVII, alguns exemplares foram levados para o Tibete como presentes para a corte tibetana. Lá, eles foram cruzados com cães locais, resultando no Shih Tzu que conhecemos hoje.\n
+
+    <b>Nome Shih Tzu:</b>\n
+    O nome "Shih Tzu" significa "Cão Leão" em mandarim, uma referência à sua semelhança com leões em obras de arte tradicionais chinesas.\n
+
+   <b> Popularidade Mundial:</b>\n
+    A raça ganhou popularidade no ocidente no início do século XX e foi reconhecida oficialmente por kennel clubs internacionais nas décadas seguintes.\n
+
+    <b>Características Físicas:</b>\n
+    Os Shih Tzus são cães pequenos, com uma pelagem longa e sedosa, orelhas caídas e uma expressão facial adorável. Sua estrutura compacta e pelagem exuberante os tornam verdadeiros "cães de colo".\n
+
+    <b>Personalidade Encantadora:</b>\n
+    Além da beleza física, os Shih Tzus são conhecidos por sua personalidade afetuosa, amigável e sociável. Eles são ótimos companheiros de família e se dão bem com crianças e outros animais de estimação.\n
+
+    <b>Cuidados Especiais:</b>\n
+    Devido à pelagem longa, os Shih Tzus requerem cuidados regulares de higiene, incluindo escovação diária. Além disso, exercícios moderados e uma dieta balanceada são essenciais para manter sua saúde e bem-estar.\n
+
+    <b>Legado Duradouro:</b>\n
+    Hoje, os Shih Tzus continuam a ser amados e apreciados em todo o mundo, trazendo alegria e companheirismo para inúmeras famílias.\n
 </string>
 
 </resources>
+

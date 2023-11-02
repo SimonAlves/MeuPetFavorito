@@ -8,23 +8,33 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class MelhoresVermifugosAdapter(private val vermifugos: List<Triple<String, String, String>>, private val listener: (String) -> Unit) :
-    RecyclerView.Adapter<MelhoresVermifugosAdapter.ViewHolder>() {
+// Data class Vermifugo
+data class Vermifugo(
+    val nome: String,
+    val descricao: String,
+    val url: String,
+    val imagemResource: Int
+)
+
+// Classe do Adapter
+class MelhoresVermifugosAdapter(
+    private val vermifugos: List<Vermifugo>,
+    private val listener: (String) -> Unit
+) : RecyclerView.Adapter<MelhoresVermifugosAdapter.ViewHolder>() {
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val imageView: ImageView = itemView.findViewById(R.id.imagemPet)
-            private val textViewNome: TextView = itemView.findViewById(R.id.nomeVermifugo)
+        private val textViewNome: TextView = itemView.findViewById(R.id.nomeVermifugo)
         private val textViewDescricao: TextView = itemView.findViewById(R.id.descricaoVermifugo)
         private val buttonVerProduto: Button = itemView.findViewById(R.id.verProdutoBtn)
 
-        fun bind(position: Int) {
-            val (nome, descricao, _) = vermifugos[position]
-            textViewNome.text = nome
-            textViewDescricao.text = descricao
-            imageView.setImageResource(R.drawable.iconvermifugo) // Substitua ic_vermifugo pelo seu recurso de imagem
+        fun bind(vermifugo: Vermifugo) {
+            textViewNome.text = vermifugo.nome
+            textViewDescricao.text = vermifugo.descricao
+            imageView.setImageResource(vermifugo.imagemResource)
 
             buttonVerProduto.setOnClickListener {
-                listener(vermifugos[position].third)
+                listener(vermifugo.url)
             }
         }
     }
@@ -36,7 +46,7 @@ class MelhoresVermifugosAdapter(private val vermifugos: List<Triple<String, Stri
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bind(position)
+        holder.bind(vermifugos[position])
     }
 
     override fun getItemCount(): Int = vermifugos.size

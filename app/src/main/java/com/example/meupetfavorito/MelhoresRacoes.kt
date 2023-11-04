@@ -41,7 +41,7 @@ class MelhoresRacoes : AppCompatActivity() {
             Quadruple(
                 "Fórmula Natural",
                 "Elaborada com ingredientes naturais e contém proteínas de alta qualidade, vitaminas e minerais para promover uma pele, pelagem e digestão saudáveis.",
-                "https://www.polipet.com.br/produto/racao-formula-natural-super-premium-life-cachorros-adultos-portes-mini-e-pequeno-7-0kg-91965l",
+                "https://www.polipet.com.br/produto/racao-formula-natural-fresh-meat-cachorros-adultos-portes-mini-e-pequeno-1-0kg-96342",
                 R.drawable.racaoformulanatural
             ),
 

@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/bege2"
     android:fillViewport="true">
 
     <LinearLayout
@@ -10,7 +11,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="8dp"
-        android:background="@color/bege3">
+        android:background="@color/bege2">
 
         <!-- Card para a fase de Filhote -->
         <com.google.android.material.card.MaterialCardView
@@ -25,7 +26,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/bege2">
+                android:background="@color/white">
 
                 <ImageView
                     android:id="@+id/filhoteImageView"
@@ -41,6 +42,8 @@
                     android:id="@+id/filhoteTitleTv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
                     android:text="@string/filhote_title"
                     android:textColor="@color/dark_green"
                     android:textSize="18sp"
@@ -74,14 +77,14 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             app:cardCornerRadius="4dp"
-            android:background="@color/bege3"
+            android:background="@color/white"
             app:cardElevation="2dp"
             app:cardUseCompatPadding="true">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/bege2">
+                android:background="@color/white">
 
                 <ImageView
                     android:id="@+id/adultaImageView"
@@ -97,6 +100,8 @@
                     android:id="@+id/adultaTitleTv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="20dp"
                     android:text="@string/adulta_title"
                     android:textColor="@color/dark_green"
                     android:textSize="18sp"
@@ -130,14 +135,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardCornerRadius="4dp"
-            android:background="@color/bege3"
+            android:background="@color/bege2"
             app:cardElevation="2dp"
             app:cardUseCompatPadding="true">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/bege2">
+                android:background="@color/white">
 
                 <ImageView
                     android:id="@+id/seniorImageView"

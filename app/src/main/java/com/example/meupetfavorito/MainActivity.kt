@@ -89,7 +89,7 @@ class MainActivity : AppCompatActivity() {
 
             parentList.add(
                 ParentItem(
-                    "Shih tzu: deuses arteiros", R.drawable.shihtsu1,
+                    "Shih tzu: deuses arteiros", R.drawable.shihtzulogo,
                     childItems1
                 )
             )
@@ -120,7 +120,7 @@ class MainActivity : AppCompatActivity() {
             parentList.add(
                 ParentItem(
                     "Vira-Lata(SRD)",
-                    R.drawable.viralata,
+                    R.drawable.viralatalogo1,
                     childItem2
                 )
             )
@@ -152,7 +152,7 @@ class MainActivity : AppCompatActivity() {
             parentList.add(
                 ParentItem(
                     "Pug:na cola do dono",
-                    R.drawable.pug,
+                    R.drawable.puglogo,
                     childItem3
                 )
             )

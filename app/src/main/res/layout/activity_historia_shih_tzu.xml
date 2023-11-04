@@ -2,6 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/bege2"
     android:fillViewport="true">
 
     <com.google.android.material.card.MaterialCardView
@@ -9,14 +10,17 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="8dp"
         app:cardCornerRadius="8dp"
-        android:background="@color/bege3"
+        android:background="@color/white"
         app:cardElevation="5dp"
         app:cardUseCompatPadding="true">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/bege2">
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/white">
 
             <ImageView
                 android:id="@+id/imagemHistoria"
@@ -47,7 +51,7 @@
                 android:id="@+id/descricaoHistoria"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="start"
+                android:gravity="center"
                 android:layout_margin="16dp"
                 android:text="@string/historia_descricao"
                 android:textColor="@color/dark_green"
